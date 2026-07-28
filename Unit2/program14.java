@@ -22,7 +22,7 @@ class Puppy extends Dog {
 }
 
 // Main class
-public class MultilevelInheritance {
+class MultilevelInheritance {
     public static void main(String[] args) {
         Puppy p = new Puppy();
 

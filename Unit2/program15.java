@@ -22,7 +22,7 @@ class ChildB extends Parent {
 }
 
 // Main Class
-public class program15 {
+public class Hierarchicalinheritance {
     public static void main(String[] args) {
         ChildA objA = new ChildA();
         objA.showParent(); // Inherited from Parent

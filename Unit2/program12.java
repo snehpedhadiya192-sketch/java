@@ -23,7 +23,7 @@ class PetDog implements Dog {
 }
 
 // Main class
-public class InterfaceExtend {
+class InterfaceExtend {
     public static void main(String[] args) {
         PetDog d = new PetDog();
 

@@ -1,0 +1,25 @@
+//  Write a java program to use method overriding
+
+// Parent class
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+// Child class
+class Dog extends Animal {
+    // Overriding the sound() method
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+// Main class
+class MethodOverriding {
+    public static void main(String[] args) {
+        Animal obj = new Dog(); // Parent reference, child object
+        obj.sound();            // Calls the overridden method
+    }
+}
